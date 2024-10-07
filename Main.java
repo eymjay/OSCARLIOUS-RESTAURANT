@@ -20,7 +20,7 @@ public class Main {
         // TODO code application logic here
         Scanner input = new
              Scanner(System.in);
-           int choice;
+            int choice;
             int num1 = 100;
             int num2 = 50;
             int num3 = 30;
@@ -30,12 +30,13 @@ public class Main {
             double yes;
             double totalAmount = 0.0;
             double result;
-             double cash =  0.0;
+            double cash =  0.0;
 
             System.out.println("OSCARLIOUS RESTAURANT");
 
             do {
                 System.out.println("Choose the product you want to purchase, type the number of the product you want to purchase");
+                System.out.println("DISCOUNT & VOUCHER");
                 System.out.println("1. WHOLE Letchon Baboy ------ $100");
                 System.out.println("2. Letchon Manok ---- $50");
                 System.out.println("3. Sinigang na Bangus ---------- $30");
@@ -77,6 +78,7 @@ public class Main {
                         totalAmount += result;
                         System.out.println("Your total for Adobong pusit is: $" + result);
                         break;
+                        
                     case 5:
                     System.out.println("Enter the quantity:");
                         quantity = input.nextInt();
@@ -84,8 +86,7 @@ public class Main {
                         totalAmount += result;
                         System.out.println("Your total for Pares is: $" + result);
                         break;
-
-
+                
                     case 6:
                         System.out.println("No more items to purchase.");
                         break;
@@ -133,7 +134,7 @@ public class Main {
                 System.out.println("Thank you for shopping! No receipt requested.");
             }
 
-            System.out.println("Thank you for visiting Mariwara Store!");
+            System.out.println("Thank you for visiting OSCARLIOUS RESTAURANT!");
         }
     }
 
